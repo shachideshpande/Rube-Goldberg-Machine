@@ -1,0 +1,136 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{sidecap}
+\usepackage{multicol}
+\usepackage{verbatimbox}
+
+ 
+ 
+%Information to be included in the title page:
+\title{Executive Presentation of Box2D project by Group-17(Sumatokoda)}
+\author{
+    Sindhura \\
+    Roll no:140050051\\
+    mutant@cse.iitb.ac.in\\
+\and
+\\ Sowmya Mutyala\\
+    Roll no: 140050072\\
+    sowmyamutyala@cse.iitb.ac.in\\
+\and
+ \\ Shachi Deshpande\\
+    Roll no: 140110047\\
+    shachi@cse.iitb.ac.in\\
+}
+
+ 
+ 
+ 
+\begin{document}
+ 
+\titlepage
+ 
+\begin{frame}
+\frametitle{OverView}
+\begin{itemize}
+\item Introduction
+ \item Interesting things in our project
+\item Technical Contributions
+ \item Challenges faced during the implementation
+ \item Efforts put by us to overcome them
+ \item Conclusion
+  \item References
+\end{itemize}
+\end{frame}
+
+
+
+
+
+
+
+
+\begin{frame}
+ \frametitle{Interesting things in our project}
+These are the things which we found interesting in our project
+ \begin{itemize}
+ 
+ \item The SWAG concept, and design of individual letters 
+ \item Using balloons with negative gravity
+ \item The pressure transferring system using numerous small balls
+\end{itemize}
+
+
+\textbf{Technical Contributions}\\
+ 1. Use of Sensors for making conveyor belts\\
+ 2. Using Revolute joints for various things like motors\\
+ 3. Using Pulley joint for creating pulleys\\
+ 4. Idea of using many small balls to create a pressure-transferring system 
+\end{frame}
+
+
+
+
+
+
+\begin{frame}
+ \frametitle{Some challenges and efforts put by us to overcome them}
+ \begin{itemize}
+ 
+ \item In the implementation of conveyor belt,we initially tried to implement the original conveyor belt where the belt moves along with the wheels.Since it was not working properly,we ultimately came up with a design which gives the effect of a conveyor belt.
+ \item While implementing Pascal's law, the balls were overflowing into man's bowl.So we changed the design, and removed conveyor belt on the right.We changed the design of food-items 
+serving plate in original project proposal. This helped us make changes in dimensions of the pressure-transferring system and the food-delivery started working well.
+ \item In the formation of A in SWAG ,the dominos were not falling in synchrony, so we had to change the densities of individual dominos, adjust the impulse given by block to leftmost domino by adjusting the horizontal speed of 'conveyor', and so on. Almost all these things required hundreds of simulations again and again,
+changing one property at a time.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+ \frametitle{Conclusion}
+ We have used a lot of concepts learnt in our labs.Some of them are
+ \begin{itemize}
+ \item Box2D simulation of our lab03.
+ \item Makefiles
+ \item Inkscape
+ \item Using Doxygen for documentation
+ \item Latex and presentions in beamer which are useful for presenting the work neatly
+ \item Profiling using gprof.\\
+\textbf{We also learnt new things in this lab}
+\item Creating sensors
+\item Creating Revolute and Pulley Joints
+\item Creating motors
+
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{References}
+    The following sites were very useful to study box2D
+http://www.iforce2d.net/b2dtut/
+
+http://www.box2d.org/manual.html
+
+Following youtube links were very useful to get idea of what exciting things can be done in box2D.
+
+https://www.youtube.com/watch?v=FZJOaY6Xh7Y
+
+https://www.youtube.com/watch?v=ykhnhoQEkXg
+
+https://www.youtube.com/watch?v=8kZRpouZ3OQ
+
+https://www.youtube.com/watch?v=FZJOaY6Xh7Y
+	
+    \bibliographystyle{plain}
+    \bibliography{simplebib}
+\end{frame}
+
+
+ 
+\end{document}
+
